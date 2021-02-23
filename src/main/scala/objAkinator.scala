@@ -1,4 +1,3 @@
-package akinator
 import scala.io.StdIn.readLine
 
 object objAkinator {
