@@ -31,7 +31,13 @@ object objAkinator {
     case Animal(nom) => {
       println("Pensez-vous à " + nom + " ?")
       val reponse = readLine()
-      if (reponse.equals("o")) true else false
+      if (reponse.equals("o")) {
+        println("J'ai gagné")
+        true
+      } else {
+        println("J'ai perdu")
+        false
+      }
     }
   }
 }
